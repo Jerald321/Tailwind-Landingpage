@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind-landingpage</title>
+    <link href="./output.css" rel="stylesheet">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+
+    <!-- fontlink -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+</head>
+<body class="remove righteous">
+
+  <!-- header -->
+
+
+    <header class="flex overflow-hidden flex-col py-2.5 bg-white ">
+        <div class="h-62 flex  lg:h-12 flex flex-wrap gap-5 justify-between  w-full text-xl max-w-[1415px] 
+        max-md:max-w-full">
+        <div class=" mt-0">
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/7695642df54740206cc3cecd28924dd2159b1c30ec36d0acd2587df51539c166?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Company logo" class="object-contain shrink-0 max-w-full bg-blend-darken aspect-[1.74] w-[131px] mt-0   " />
+          <nav class=" lg:flex flex-wrap gap-10 mt-2 max-md:max-w-full ">
+        </div>
+        <div>
+          <button class="ml-36 mr-8 mt-4  lg:hidden " onclick="menuclick()">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 1 1-3 0m3 0a1.5 1.5 0 1 0-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-9.75 0h9.75" />
+            </svg>
+            
+          </button>
+        </div>
+         
+            <ul class="hidden  lg:flex gap-10 mt-1  text-black font-bold   ">
+              <li class="hover:underline decoration-2 decoration-violet-500 ml-10"><a href="#home">Home</a></li>
+              <li class="hover:underline decoration-2 decoration-violet-500 ml-10"><a href="#about">About</a></li>
+              <li class="hover:underline decoration-2 decoration-violet-500 ml-10"><a href="#courses">Courses</a></li>
+              <li class="hover:underline decoration-2 decoration-violet-500 ml-10"><a href="#contact"  >Contact</a></li>
+            </ul>
+            <div class="hidden lg:flex flex-wrap gap-10 font-medium leading-none text-white whitespace-nowrap max-md:max-w-full ">
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/f25fa26ecbd65821dfe06c7459238464bd18fb4274a34aedf3d47f702074c2ab?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="User profile icon" class="lg:shrink-0 my-auto max-w-full rounded-none aspect-[3.94] w-[130px] mt-0" />
+              <a href="#signup" class="px-7 py-2 rounded-xl shadow-[0px_5px_0px_rgba(0,0,0,0.161)] max-md:px-5 mt-0  bg-violet-950 h-10 ml-10 hover:border-2 border-blue-500">
+                Signup
+              </a>
+            </div>
+            <div class="hidden  mt-0 w-full " id="mobileMenu">
+              <ul class="mt-0 text-center font-bold lg:hidden" id="mobileMenu">
+                <li class="hover:underline decoration-2 decoration-violet-500 ml-10"   ><a href="#home">Home</a></li>
+                <li class="hover:underline decoration-2 decoration-violet-500 delay-3 ml-10 mt-2"><a href="#about">About</a></li>
+                <li class="hover:underline decoration-2 decoration-violet-500 delay-3 ml-10 mt-2"><a href="#courses">Courses</a></li>
+                <li class="hover:underline decoration-2 decoration-violet-500 delay-3 ml-10 mt-2"><a href="#contact">Contact</a></li>
+                <li class="mt-8 text-center  "><a href="#signup" class="px-7 py-2 rounded-xl shadow-[0px_5px_0px_rgba(0,0,0,0.161)] max-md:px-5 mt-8  bg-violet-950 h-10 ml-10 text-white hover:border-2 border-blue-500 ">
+                  Signup
+                </a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- home -->
+
+      
+      <main>
+        <section id="home" class="flex flex-col justify-center py-px w-full  bg-violet-950 max-md:max-w-full h-[400px] ">
+          <div class="flex z-10 flex-col justify-center items-center px-16 py-px w-full max-md:px-5 max-md:max-w-full  ">
+            <div class="z-10 mb-0 w-full max-w-[1626px] max-md:mb-2.5 max-md:max-w-full">
+              <div class="flex gap-5 max-md:flex-col">
+                <div class="flex flex-col w-[66%] max-md:ml-0 max-md:w-full">
+                  <div class="flex flex-col items-start mt-40 mr-0 w-full max-md:mt-10 max-md:max-w-full">
+                    <p class="text-lg leading-none uppercase text-white text-opacity-80 tracking-[3px] max-md:max-w-full  relative ">
+                      Successful coaches are visionaries
+                    </p>
+                    <div class="self-stretch  w-full max-md:max-w-full">
+                      <div class="flex gap-5 max-md:flex-col">
+                        <div class="flex flex-col w-[68%] 
+                        
+                        max-md:ml-0 max-md:w-full">
+                          <h1 class="mt-0 text-5xl font-bold text-white leading-[90px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[50px]">
+                            <span class="">Good</span>
+                            <span class="text-blue-700">coaching</span>
+                            <span class="">is good teaching & nothing else.</span>
+                          </h1>
+                        </div>
+                        <div class="flex flex-col ml-5 w-[32%] max-md:ml-0 max-md:w-full">
+                          <figure class="flex gap-6 text-base text-white max-md:mt-10">
+                            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/bec2f5789715d2c78734ffe243ab1dcdf88a4363a6f6d17b59069fae8df21219?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Profile picture of Shyam" class="object-contain shrink-0 my-auto w-6 aspect-[0.16]" />
+                            <figcaption class="flex flex-col grow shrink-0 items-start basis-0 w-fit">
+                              <div class="leading-none">Shyam</div>
+                              <blockquote class="self-stretch mt-3.5 leading-6">
+                                In a coaching role, you ask the questions and rely more on your
+                                staff, who become the experts, to provide the information.
+                              </blockquote>
+                              <div class="mt-3 text-xs font-bold leading-6 text-sky-500">
+                                4.9
+                              </div>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex gap-9  mt-8 text-lg text-white max-md:mt-10 ">
+                      <a href="#view-courses" class="flex overflow-hidden flex-col tracking-wider leading-loose rounded-xl border-2 border-white border-solid">
+                        <div class="overflow-hidden px-8 py-2 rounded-md bg-teal-500 bg-opacity-0 max-md:px-5">
+                          View Courses
+                        </div>
+                      </a>
+                      <a href="#get-consultation" class="my-auto leading-3 basis-auto">
+                        Get Free Consultation
+                      </a>
+                    </div>
+                    <form class="max-w-full w-[897px] h-[223px]">
+                      <div class="flex gap-5 max-md:flex-col">
+                        <div class="flex flex-col w-[61%] max-md:ml-0 max-md:w-full">
+                          <div class="flex flex-wrap gap-10 pr-2.5 pl-9 mx-auto mt-14 w-full bg-white rounded-lg  
+                          h-[60px]
+                          max-md:pl-5 max-md:mt-10 max-md:max-w-full ">
+                            <label for="search-input" class="sr-only">What do you want to learn today?</label>
+                            <input type="text" id="search-input" placeholder="What do you want to learn today?" class="flex-auto my-auto text-base text-slate-600 w-[228px]" />
+                            <button type="submit" class="flex gap-3.5 items-start px-7 py-2 text-base leading-loose text-center text-white whitespace-nowrap rounded-xl
+                            mt-1
+                            h-[50px]
+                            max-md:px-5 bg-violet-950">
+                              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/3dee4708652a129ac336e4faa59c928d6ff6e1ec58718ac8f7ddbd6225157c37?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="" class="object-contain shrink-0 self-start w-5 aspect-square mt-2" />
+                              <span class="my-auto ">Search</span>
+                            </button>
+                          </div>
+                        </div>
+
+                        <!-- u -->
+
+                        <div class="hidden lg:flex flex-col ml-5 w-[24%] max-md:ml-0 max-md:w-full ">
+                          <div class=" lg:flex flex-col grow px-5 pt-5 border-white border-solid border-[3px] rounded-[500px_500px_0px_0px] max-md:px-5 max-md:mt-10">
+                            <div class=" flex flex-col px-6 pt-5 border-white border-dashed border-[3px] rounded-[500px_500px_0px_0px] max-md:px-5">
+                              <div class="flex shrink-0 border-white border-solid border-[3px] h-[170px] rounded-[500px_500px_0px_0px] "></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="flex flex-col ml-5 w-[30%] h- max-md:ml-0 max-md:w-full mt-14  h-[30%]  ">
+
+                  <!-- womem img -->
+                   <div >
+                    <div class="absolute index mt-14 lg:absolute borderradius boxshadow mt-16 shadow ">
+
+                    </div>
+                    <div class=" lg:absolute top-16 
+                    
+                    ">
+                       <img src="img/women-removebg-preview.png" alt="" class="">
+                    </div>
+                    
+                   </div>
+                   
+                   
+                  
+                   
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+        </section>
+       <!-- amazon,whatever tag -->
+        <section class="flex relative flex-col justify-center items-center px-16 py-12 w-full min-h-[167px] max-md:px-5 max-md:max-w-full">
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/04071c0d1be9e0317ee3626c300a1a06210c4ecfcf54a9736dbfe2706aee2d37?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="" class="object-cover absolute inset-0 size-full" />
+          <div class="flex relative flex-wrap gap-5 justify-between ml-8 w-full max-w-[1475px] max-md:max-w-full">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/00fc0d5029c87c5896fe3624df41400ae5ed495ac8e87f20f2e92c09a428be85?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Partner logo" class="object-contain shrink-0 my-auto max-w-full bg-blend-normal aspect-[3.33] w-[140px]" />
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/a7baa6091bfee07d4e41eab0bfac55eb293b68ee47c3db7e4e0484913b445b75?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Partner logo" class="object-contain shrink-0 self-end mt-6 max-w-full bg-blend-normal aspect-[3.25] w-[120px]" />
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/00fc0d5029c87c5896fe3624df41400ae5ed495ac8e87f20f2e92c09a428be85?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Partner logo" class="object-contain shrink-0 my-auto max-w-full bg-blend-normal aspect-[3.33] w-[140px]" />
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/0a67ed70ae900d820cbff6bf8cb76879e1d226c1b2d12134f078dd8301f3f6b2?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Partner logo" class="object-contain shrink-0 max-w-full bg-blend-normal aspect-[1.76] w-[120px]" />
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/364b26514b5a08411d81617cc64d931e05bc46c3d951a9fae943b78346f724b5?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Partner logo" class="object-contain shrink-0 my-auto max-w-full bg-blend-normal aspect-[3.25] w-[120px]" />
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/a7baa6091bfee07d4e41eab0bfac55eb293b68ee47c3db7e4e0484913b445b75?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Partner logo" class="object-contain shrink-0 self-end mt-6 max-w-full bg-blend-normal aspect-[3.25] w-[120px]" />
+          </div>
+        </section>
+
+
+        <!-- features coures -->
+      
+        <section id="about" class="flex flex-col items-center px-20 pt-28 pb-60 w-full max-md:px-5 max-md:py-24 max-md:max-w-full">
+          <div class="flex flex-col mb-0 w-full max-w-[1624px] max-md:mb-2.5 max-md:max-w-full">
+            <div class="flex flex-wrap gap-5 justify-between ml-20 max-w-full w-[1200px]">
+              <div class="flex shrink-0 rounded-full border-solid border-[19px] border-cyan-400 border-opacity-20 h-[103px] w-[103px]"></div>
+              <div class="flex flex-col max-md:max-w-full">
+                <h2 class="self-center text-4xl tracking-tighter text-center leading-loose text-zinc-800 max-md:text-3xl mr-36 font-bold">
+                  Featured <span class="text-blue-500">Course</span>
+                </h2>
+                <p class="mt-3 text-2xl leading-none uppercase text-black text-opacity-80 tracking-[3px] max-md:max-w-full mr-36">
+                  The feature courses are we invented our teaching part
+                </p>
+              </div>
+            </div>
+
+            <!-- features box -->
+             
+            <div class="mt-39 max-md:mt-10 max-md:max-w-full">
+              <div class="flex gap-5 max-md:flex-col  ">
+
+                <!-- first -->
+                <article class="flex  w-[30%] max-md:ml-0 max-md:w-full mt-14  hover:border-2 border-blue-500  ">
+                  <div class="flex flex-col grow px-0.5 w-full bg-indigo-50 rounded-none max-md:mt-10 max-md:max-w-full ">
+                    <div class="flex flex-col items-center pb-3.5 w-full bg-white rounded-3xl max-md:max-w-full">
+                      <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/3c9c1b0c86e294f1191e052aafd3a5feb0bb6683d10d8aea03f628c055c976a7?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Motion Graphics course thumbnail" class="object-contain self-stretch w-full rounded-none aspect-[1.63] max-md:max-w-full" />
+                      <div class="flex gap-10 mt-7 max-w-full leading-9 w-[441px]">
+                        <div class="flex flex-col grow shrink-0 basis-0 w-fit">
+                          <p class="self-start text-sm font-medium tracking-tight text-slate-600">
+                            1,957 Students
+                          </p>
+                          <h3 class="mt-5 text-2xl font-semibold tracking-tighter text-slate-700">
+                            Motion Graphics: Create a Nice Typography Animation
+                          </h3>
+                        </div>
+                        <p class="self-start text-sm font-medium tracking-tight text-slate-600">
+                          01h 59m
+                        </p>
+                      </div>
+                      <div class="flex gap-5 justify-between items-start mt-12 max-w-full text-2xl font-semibold tracking-tighter leading-loose whitespace-nowrap text-slate-600 w-[434px] max-md:mt-10">
+                        <p class="mt-4">Rs.499</p>
+                        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/bdd048a8f2d231f79d948873af3730a82ed42d2dd60e7992359ebd73d13b0771?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Add to cart" class="object-contain shrink-0 aspect-square w-[26px]" />
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <!-- second -->
+                </article>
+                <article class="flex flex-col ml-5 w-[30%] mt-14  max-md:ml-0  max-md:w-full hover:border-2  border-blue-500  ">
+                  <div class="flex flex-col grow  w-full bg-white rounded-3xl max-md:mt-10 max-md:max-w-full">
+                    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/f559e662e848fb74ce0a5b635acaec7d26e016f1ba1b37ce5b243894f862a3fe?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="PHP and JS course thumbnail" class="object-contain z-10 mt-0 w-full rounded-none aspect-[1.63] max-md:max-w-full" />
+                    <div class="flex flex-col px-8 py-7 w-full bg-white rounded-none max-md:px-5 max-md:max-w-full">
+                      <div class="flex gap-px leading-9">
+                        <div class="flex flex-col grow shrink-0 basis-0 w-fit">
+                          <p class="self-start text-sm font-medium tracking-tight text-slate-600">
+                            9,575 Students
+                          </p>
+                          <h3 class="mt-5 text-2xl font-semibold tracking-tighter text-slate-700">
+                            Advance PHP knowledge with JS to make smart web
+                          </h3>
+                        </div>
+                        <p class="self-start text-sm font-medium tracking-tight text-slate-600">
+                          01h 59m
+                        </p>
+                      </div>
+                      <div class="flex gap-5 justify-between mt-14 text-2xl font-semibold tracking-tighter leading-loose whitespace-nowrap text-slate-600 max-md:mt-10 max-md:max-w-full">
+        <p>Rs.499</p>
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/bdd048a8f2d231f79d948873af3730a82ed42d2dd60e7992359ebd73d13b0771?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Add to cart" class="object-contain shrink-0 self-start aspect-square w-[26px]" />
+      </div>
+      </div>
+      </div>
+      <!-- 3rd -->
+      </article>
+      <article class="flex flex-col ml-5 mt-14  w-[30%] max-md:ml-0 max-md:w-full mt-0
+      hover:border-2 border-blue-500">
+      <div class="flex flex-col grow mw-full font-semibold leading-9 bg-white rounded-3xl text-slate-600 max-md:mt-10 max-md:max-w-full">
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/04c2c22b5b0495a3aa7ddf1127d4cfa52fd0d3b91c3114d209fb1e08d10e5eba?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="PHP and JS System Script course thumbnail" class="object-contain z-10 mt-0 w-full rounded-none aspect-[1.63] max-md:max-w-full" />
+        <div class="flex flex-col px-8 py-7 w-full bg-white rounded-none max-md:px-5 max-md:max-w-full">
+          <div class="flex gap-5 justify-between text-sm font-medium tracking-tight max-md:max-w-full">
+            <p>2957 Students</p>
+            <p>02h 49m</p>
+          </div>
+          <h3 class="self-start mt-5 text-2xl tracking-tighter text-slate-700">
+            Education Software and PHP and JS System Script
+          </h3>
+          <div class="flex gap-5 justify-between mt-12 ml-3 text-2xl tracking-tighter leading-loose whitespace-nowrap max-md:mt-10 max-md:mr-1 max-md:max-w-full">
+            <p>Rs.499</p>
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/5ac10f40bacef47843344db2632c711815f7a8af5daaf08120b4a0f2f95341fa?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Add to cart" class="object-contain shrink-0 self-start aspect-square w-[26px] " />
+          </div>
+        </div>
+      </div>
+      
+      </article>
+      </div>
+      </div>
+      <div class="mt-12 max-md:mt-10 max-md:max-w-full">
+      <div class="flex gap-5 max-md:flex-col">
+        <!-- 4rd -->
+      <article class="flex flex-col w-[30%] mt-16  max-md:ml-0 max-md:w-full mt-0
+      hover:border-2 border-blue-500">
+        <div class="flex flex-col grow  w-full bg-white rounded-3xl max-md:mt-10 max-md:max-w-full">
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/ab504f70701a9f892b8575dd72a8d8f17b351c1a8f0daa7a26e3b17dc3270f65?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Financial Analyst Training course thumbnail" class="object-contain z-10 mt-0 w-full rounded-none aspect-[1.63] max-md:max-w-full" />
+          <div class="flex flex-col px-6 pt-7 pb-4 mt-1.5 w-full bg-white rounded-none max-md:px-5 max-md:max-w-full">
+            <div class="flex gap-10 ml-2.5 leading-9">
+              <div class="flex flex-col grow shrink-0 basis-0 w-fit">
+                <p class="self-start text-sm font-medium tracking-tight text-slate-600">
+                  5,457 Students
+                </p>
+                <h3 class="mt-5 text-2xl font-semibold tracking-tighter text-slate-700">
+                  The Complete Financial Analyst Training & Investing
+                </h3>
+              </div>
+              <p class="self-start text-sm font-medium tracking-tight text-slate-600">
+                01h 49m
+              </p>
+            </div>
+            <div class="flex gap-5 justify-between items-start mt-12 text-2xl font-semibold tracking-tighter leading-loose whitespace-nowrap text-slate-600 max-md:mt-10 max-md:max-w-full">
+              <p class="mt-3.5">Rs.499</p>
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/bdd048a8f2d231f79d948873af3730a82ed42d2dd60e7992359ebd73d13b0771?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Add to cart" class="object-contain shrink-0 aspect-square w-[26px]" />
+            </div>
+          </div>
+        </div>
+        <!-- 5rd -->
+      </article>
+      <article class="flex flex-col ml-5 mt-14  w-[30%] max-md:ml-0 max-md:w-full mt-16 
+      hover:border-2 border-blue-500">
+        <div class="flex flex-col px-0.5 w-full font-semibold leading-9 bg-indigo-50 rounded-none text-slate-600 max-md:mt-10 max-md:max-w-full">
+          <div class="flex flex-col pb-5 bg-white rounded-3xl max-md:max-w-full">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/ae1884bf71f991b5cf3598ead03e04ff6e7e586dcedfa004984cee86521b77a7?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Instagram Growth course thumbnail" class="object-contain w-full rounded-none aspect-[1.63] max-md:max-w-full" />
+            <div class="flex flex-col px-8 mt-7 w-full max-md:px-5 max-md:max-w-full">
+              <div class="flex gap-5 justify-between text-sm font-medium tracking-tight max-md:max-w-full">
+                <p>595 Students</p>
+                <p>01h 49m</p>
+              </div>
+              <h3 class="self-start mt-5 text-2xl tracking-tighter text-slate-700">
+                Marketing 2023: Complete Guide To Instagram Growth
+              </h3>
+              <div class="flex gap-5 justify-between mt-12 text-2xl tracking-tighter leading-loose whitespace-nowrap max-md:mt-10 max-md:max-w-full">
+                <p>Rs.499</p>
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/bdd048a8f2d231f79d948873af3730a82ed42d2dd60e7992359ebd73d13b0771?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Add to cart" class="object-contain shrink-0 self-start aspect-square w-[26px]" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="flex flex-col ml-5 mt-16  w-[30%] max-md:ml-0 max-md:w-full mt-0
+      hover:border-2 border-blue-500">
+        <div class="flex flex-col mx-auto m w-full leading-9 bg-white rounded-3xl text-slate-600 max-md:mt-10 max-md:max-w-full">
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/08371287ffaf44893edf50a83bd1f1313e9b3896008b61051142c464f5c2fcb2?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="3D Modelling course thumbnail" class="object-contain z-10 mt-0 w-full rounded-none aspect-[1.63] max-md:max-w-full" />
+          <div class="flex flex-wrap gap-10 px-9 py-8 bg-white rounded-none max-md:px-5">
+            <div class="flex flex-col grow shrink-0 items-start font-semibold basis-0 w-fit">
+              <p class="text-sm font-medium tracking-tight">458 Students</p>
+              <h3 class="self-stretch mt-5 text-2xl tracking-tighter text-slate-700">
+                Learn 3D Modelling and Design for Beginners
+              </h3>
+              <p class="mt-11 ml-3 text-2xl tracking-tighter leading-loose max-md:mt-10 max-md:ml-2.5">
+                Rs.499
+              </p>
+            </div>
+            <div class="flex flex-col self-start text-sm font-medium tracking-tight">
+              <p class="border-2">03h 00m </p>
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/5ac10f40bacef47843344db2632c711815f7a8af5daaf08120b4a0f2f95341fa?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Add to cart" class="object-contain self-end mt-32 aspect-square w-[26px] max-md:mt-10 max-md:mr-1 " />
+            </div>
+            
+          </div>
+          
+        </div>
+        
+      </article>
+      </div>
+      </div>
+      </div>
+      <div class="text-center hover:border-4 border-blue-500 rounded-2xl mt-10 ">
+        <button class="bg-gradient-to-r from-blue-500 to-violet-500
+        text-center text-white px-6 font-bold rounded-xl h-10 hover:underline decoration-2  decoration-green-500 ">Explore courses</button>
+      </div>
+      </div>
+      </section>
+      <!-- cources -->
+      
+      <section id="courses" class="flex relative flex-col w-full  max-md:max-w-full   " >
+      <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/50fc504c593edd53b83f3ce77866f55c8645299cbfbe132bb808a2bf8a996028?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="" class="object-cover absolute inset-0 size-full" />
+      <div class="flex relative flex-col justify-center items-start py-12 w-full max-md:py-24 max-md:pr-5 max-md:max-w-full ">
+      <!-- <div class="flex flex-wrap gap-5 justify-between items-start  w-full max-w-[1600px] max-md:mb-2.5 max-md:max-w-full"> -->
+        <!-- <div class="flex flex-col justify-center items-start self-start py-5 border-white border-solid border-[3px] rounded-[500px_500px_0px_0px]">
+          <div class="flex flex-col justify-center items-start py-6 border-white border-dashed border-[3px] rounded-[500px_500px_0px_0px]">
+            <div class="flex shrink-0 border-white border-solid border-[3px] h-[225px] rounded-[500px_500px_0px_0px]"></div>
+          </div>
+        </div> -->
+        <div class="flex flex-col items-center self-end  text-white max-md:max-w-full">
+          <h2 class="text-4xl leading-none max-md:max-w-full max-md:text-4xl">
+            Why <span class="text-blue-700">learn</span> with our courses?
+          </h2>
+          <p class="mt-6 text-xl leading-9 text-center w-[728px] max-md:max-w-full">
+            We are providing the best courses and top classes. And extraordinary placement training.
+          </p>
+          <div class="flex flex-wrap gap-5 justify-between 2self-stretch mt-20 text-center max-md:mt-10 max-md:max-w-full">
+            <div class="flex flex-col items-center self-start">
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/e471a91429d365dfb16bc423243f4437c03baa4677605b5b80e75736252f2c2c?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Learn icon" class="object-contain w-12 aspect-square" />
+              <h3 class="mt-10 text-xl leading-none max-md:mt-10">01. Learn</h3>
+              <p class="self-stretch mt-5 text-xl leading-7 w-26">
+                Learn continually. There is always "one more thing" to learn.
+              </p>
+            </div>
+            <div class="shrink-0 w-0.5 h-[250px]"></div>
+            <div class="flex flex-col self-start items-center">
+              <div class="flex flex-col pr-8 pl-2.5 text-xl leading-none  max-md:pr-5 ">
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/616ae6967b61b381730fb2c109947a102cbfb0587956a0466e62d4e664c98907?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Graduate icon" class="object-contain self-center w-12 aspect-square" />
+                <h3 class="self-start mt-5 max-md:mt-10">02. Graduate</h3>
+              </div>
+              <p class="mt-10 text-xl leading-7">
+                Be bold, be courageous, be your best.
+              </p>
+            </div>
+            <div class="shrink-0 w-0.5 h-[250px]"></div>
+            <div class="flex flex-col items-center">
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/5c0e0a63d6c8a4eafdfc1135b4ea0baf82329c7b5284e90a0ecaabc5cd6ecb00?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Work icon" class="object-contain w-12 aspect-square" />
+              <h3 class="mt-10 text-xl leading-none max-md:mt-10">03. Work</h3>
+              <p class="self-stretch mt-5 text-lg leading-7 ">
+                Great companies are built in the office, with hard work put in by team.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      </section>
+
+      <!-- top catagery -->
+      
+      <section id="contact" class="flex flex-col justify-center items-center px-8 py-14 w-full text-center max-md:px-5 max-md:py-24 max-md:max-w-full">
+      <div class="flex flex-col items-center  mt-12 mb-0 w-full  max-md:mb-2.5 max-md:max-w-full">
+      <h2 class="text-4xl leading-none text-zinc-800 max-md:text-4xl">
+        Top <span class="text-blue-700">Categories</span>
+      </h2>
+      <p class="mt-8 ml-3 text-2xl leading-none text-slate-600 max-md:max-w-full">
+        100+ unique online course list designs
+      </p>
+      <div class="flex flex-wrap gap-5 self-stretch mt-16 max-md:mt-10 max-md:max-w-full ">
+        <article class="flex flex-col flex-1 items-center hover:border-2 border-blue-500 px-12 py-11 bg-white rounded-3xl shadow-[0px_4px_4px_rgba(217,236,255,0.5)] max-md:px-5 ">
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/0799bb379a3f706f23f16acb1ac20248366cf8c2db3a92349af77d4c6ed81738?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Digital Marketing icon" class="object-contain rounded-lg aspect-square w-[80px]" />
+          <h3 class="mt-12 text-xl font-bold leading-9 text-slate-700 max-md:mt-10">Digital<br />Marketing</h3>
+          <p class="mt-8 text-lg leading-none text-slate-600 max-md:mt-10">25 Courses</p>
+        </article>
+        <article class="flex flex-col flex-1 items-center
+        hover:border-2 border-blue-500 px-12 py-11 bg-white rounded-3xl shadow-[0px_4px_4px_rgba(217,236,255,0.5)] max-md:px-5">
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/b7b3d16ee65031de6e28201b03a47b002771e2c1b18fbff3583e92c62c3dece5?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Web Development icon" class="object-contain rounded-lg aspect-square w-[90px]" />
+          <h3 class="mt-12 text-xl  font-bold leading-9 text-slate-700 max-md:mt-10">Web<br />Development</h3>
+          <p class="mt-8 text-lg leading-none text-slate-600 max-md:mt-10">16 Courses</p>
+        </article>
+        <article class="flex flex-col flex-1 items-center
+        hover:border-2 border-blue-500
+        px-12 py-11 bg-white rounded-3xl shadow-[0px_4px_4px_rgba(217,236,255,0.5)] max-md:px-5">
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/2e01b7d2992791fce76ffcc0eac7609410d854fe60912a02d57108674770cf3f?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Art & Humanities icon" class="object-contain rounded-lg aspect-square w-[90px]" />
+          <h3 class="mt-12 text-xl  font-bold leading-9 text-slate-700 max-md:mt-10">Art &<br />Humanities</h3>
+          <p class="mt-8 text-lg leading-none text-slate-600">76 Courses</p>
+        </article>
+        <article class="flex flex-col flex-1 items-center 
+        hover:border-2 border-blue-500
+        px-12 py-11 bg-white rounded-3xl shadow-[0px_4px_4px_rgba(217,236,255,0.5)] max-md:px-5">
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/d57a30fbce5ec0c2b18d203e9174e83fd3f9ec9ac353f1082b24464a543185b7?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Personal Development icon" class="object-contain rounded-lg aspect-square w-[90px]" />
+          <h3 class="mt-12 text-xl  font-bold leading-9 text-slate-700 max-md:mt-10">Personal<br />Development</h3>
+          <p class="mt-8 text-lg leading-none text-slate-600">22 Courses</p>
+        </article>
+        <article class="flex flex-col flex-1 items-center 
+        hover:border-2 border-blue-500
+        px-12 py-11 bg-white rounded-3xl shadow-[0px_4px_4px_rgba(217,236,255,0.5)] max-md:px-5">
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/f62c14d9b2a72aba61b2ac66b3f4362e456042120437338de2cde764e96433d9?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="IT and Software icon" class="object-contain rounded-lg aspect-square w-[90px]" />
+          <h3 class="mt-12 text-xl  font-bold leading-9 text-slate-700 max-md:mt-10">IT and<br />Software</h3>
+          <p class="mt-8 text-lg leading-none text-slate-600">110 Courses</p>
+        </article>
+        <article class="flex flex-col flex-1 items-center
+        hover:border-2 border-blue-500
+        px-12 py-11 bg-white rounded-3xl shadow-[0px_4px_4px_rgba(217,236,255,0.5)] max-md:px-5">
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/81c32f3ea6d8fae19352e2409a8990000ce8ebc55ca7b530f754c36f0b774a1e?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Graphic Design icon" class="object-contain rounded-lg aspect-square w-[80px]" />
+          <h3 class="mt-12 text-xl font-bold leading-9 text-slate-700 max-md:mt-10">Graphic<br />Design</h3>
+          <p class="mt-8 text-lg leading-none text-slate-600">85 Courses</p>
+        </article>
+      </div>
+      </div>
+      </section>
+
+      <!-- subscribe -->
+      
+      <section class="flex z-10 flex-col self-center mt-10 ml-5 w-full max-w-[1398px] max-md:mt-10 max-md:max-w-full">
+      <div class="px-12 py-16  max-w-full rounded-3xl w-[1280px] max-md:">
+      <div class="flex justify-center   max-md:flex-col  bg-gradient-to-r from-fuchsia-600 to-purple-500 rounded-xl h-auto ">
+        <!-- left img -->
+        <div class="flex flex-col w-1/5 max-md:ml-0 max-md:w-full mt-10 mb-10  ">
+          <div class="flex flex-col grow max-md:mt-10 ">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/d9b43d3a4ce059134fcda0d926bda4eeb48fe331fc364b3df16fc4c89b8c8d8f?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Decorative circle" class="object-contain rounded-full aspect-square w-[60px] ml-8" />
+            <div class="flex flex-col pl-8 mt-11 max-md:pl-5 max-md:mt-10 ml-4 ">
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/e179dcfac89d6482ab776dc3f61a64fa10fdb647c5f99b6e90707fd283791cfd?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Decorative circle" class="object-contain self-end rounded-full aspect-square w-[60px] mr-4 " />
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/3ee880d798df14f06d249bcc839934f710eb509d746e409787734b63093413be?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Decorative circle" class="object-contain mt-16 rounded-full aspect-square w-[60px] max-md:mt-10  " />
+            </div>
+          </div>
+        </div>
+
+        <!-- sub -->
+        <div class="flex flex-col ml-5 w-[59%] max-md:ml-0 max-md:w-full">
+          <div class="flex flex-col self-stretch my-auto w-full text-base text-white max-md:mt-10 max-md:max-w-full  ">
+            <h2 class="text-4xl text-center leading-[55px] max-md:max-w-full max-md:text-3xl max-md:leading-[54px] font-bold">
+              Subscribe For Get Update<br />Every New Courses
+            </h2>
+            <p class="self-center mt-5 leading-8 text-center text-white text-opacity-70 max-md:max-w-full ">
+              20k+ students daily learn with Eduvi. Subscribe for new courses.
+            </p>
+            <form class="flex flex-wrap mt-10 mr-4 ml-4 max-md:mr-2.5 max-md:max-w-full">
+              <label for="email-input" class="sr-only">Enter your email</label>
+              <input type="email" id="email-input" placeholder="enter your email" class="grow px-5 py-4 leading-8 rounded-xl bg-white bg-opacity-20 w-fit" />
+              <button type="submit" class="px-9 py-5 text-right whitespace-nowrap bg-blue-700 rounded-lg max-md:px-5">
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="flex flex-col ml-5 w-1/5 max-md:ml-0 max-md:w-full">
+          <!-- right img -->
+          <div class="flex flex-col grow items-end max-md:mt-10  mt-10 mb-10">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/2d6c52df25c5d71af6f1d6a1d12e2ba112f4b1711f4770f6a887d422ad212686?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Decorative circle" class="object-contain mr-8 rounded-full aspect-square w-[60px] max-md:mr-8 " />
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/b9a9575c11c2ad1383ac304df5ecc3c9081c9469fb091db16ac5cf4b93ed2e0f?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Decorative circle" class="object-contain self-start mt-16 rounded-full aspect-square w-[60px] max-md:mt-10 ml-4" />
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/738e272de5129ce730b965cd382aea27dcccaeadd068765a38847e2fd801d84a?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Decorative circle" class="object-contain mt-11 rounded-full aspect-square w-[60px] max-md:mt-10 mr-8" />
+          </div>
+        </div>
+      </div>
+      </div>
+      <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/82840b57fe2e795bb4885bf6432365d0f14156e204a10ae49b0fdbced66cb9ae?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Decorative element" class="object-contain self-end  w-20 rounded-2xl aspect-[0.99] max-md:mt-10" />
+      <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/f8e35bdf7239dd64217427b5d4232358443041dfe10a5458ca4d6417300df9be?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Course preview" class="object-contain self-center  ml-2.5 w-full aspect-[1.82] max-w-[704px] rounded-[68px]
+      
+      max-md:mt-4 max-md:max-w-full" />
+      </section>
+
+<!-- 
+      article
+       -->
+      <section class="flex flex-col px-20 pb-10 mt-0 w-full pt-[497px] max-md:px-5 max-md:pt-24 max-md:mt-0 max-md:max-w-full bg-gradient-to-r ">
+      <div class="flex flex-wrap gap-5 justify-between max-w-full text-center w-[979px] mt-0">
+      <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c3d501a0eadf00cc083971050b85c7ef0af9b2064413c5196fb26d85e274abac?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Decorative circle" class="object-contain shrink-0 self-start mt-1.5 max-w-full rounded-full aspect-[1.07] w-[103px]" />
+      <div class="flex flex-col">
+        <h2 class="self-center text-4xl text-center text-blue-700 max-md:text-4xl fon  mr-36">
+          Testimonials
+        </h2>
+        <p class="mt-14 text-2xl leading-relaxed text-slate-600 max-md:mt-10 mr-36 mt-4">
+          What our student say about us
+        </p>
+      </div>
+      </div>
+      <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/da3d21ecc92d68a16681a7e754269997ae391a47054917f39a46cdfa1d6b8c56?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Quotation mark" class="object-contain z-10 self-center mt-36 aspect-[0.84] rounded-[360px] w-[59px] max-md:mt-10" />
+      <div class="self-center ml-5 w-full max-w-[1562px] max-md:max-w-full">
+      <div class="flex gap-5 max-md:flex-col">
+        <article class="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
+          <div class="flex z-10 flex-col grow mt-2.5 mr-0 text-base leading-8 text-slate-500 max-md:max-w-full">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/da3d21ecc92d68a16681a7e754269997ae391a47054917f39a46cdfa1d6b8c56?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Quotation mark" class="object-contain z-10 self-center ml-5 aspect-[0.84] rounded-[360px] w-[59px]" />
+            <blockquote class="flex flex-col px-14 pt-10 pb-6 bg-white shadow-[0px_4px_4px_rgba(0,0,0,0.25)] max-md:px-5 max-md:max-w-full">
+              <p class="max-md:max-w-full">
+                Such an amazing trainer and easily understand the entire syllabus, and the guidance will be super and good to the way of explaining.
+              </p>
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/849b19843dfd33912eb2b66fe733c37fb758f7100bae5350c9f50476fcbdd475?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="5 star rating" class="object-contain mt-11 max-w-full aspect-[7.25] w-[138px] max-md:mt-10" />
+            </blockquote>
+          </div>
+        </article>
+        <article class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+          <blockquote class="flex flex-col px-16 pt-14 pb-2 mr-0 text-base leading-8 bg-white shadow-[0px_4px_4px_rgba(0,0,0,0.25)] text-slate-500 max-md:px-5 max-md:max-w-full">
+            <p class="max-md:max-w-full">
+              Such an amazing trainer and easily understand the entire syllabus, and the guidance will be super and good to the way of explaining.
+            </p>
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/849b19843dfd33912eb2b66fe733c37fb758f7100bae5350c9f50476fcbdd475?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="5 star rating" class="object-contain mt-9 max-w-full aspect-[7.25] w-[138px] max-md:ml-2.5" />
+          </blockquote>
+        </article>
+        <article class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+          <div class="flex flex-col grow mt-3.5 text-base leading-8 text-slate-500 max-md:max-w-full">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/da3d21ecc92d68a16681a7e754269997ae391a47054917f39a46cdfa1d6b8c56?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Quotation mark" class="object-contain z-10 self-center aspect-[0.84] rounded-[360px] w-[59px]" />
+            <blockquote class="flex flex-col px-12 pt-16 pb-3 bg-white shadow-[0px_4px_4px_rgba(0,0,0,0.25)] max-md:px-5 max-md:max-w-full">
+              <p class="max-md:max-w-full">
+                Such an amazing trainer and easily understand the entire syllabus, and the guidance will be super and good to the way of explaining.
+              </p>
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/849b19843dfd33912eb2b66fe733c37fb758f7100bae5350c9f50476fcbdd475?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="5 star rating" class="object-contain mt-8 ml-3 max-w-full aspect-[7.25] w-[138px] max-md:ml-2.5" />
+            </blockquote>
+          </div>
+        </article>
+      </div>
+      </div>
+      <div class="flex self-end mt-40 max-md:mt-10">
+      <button aria-label="Previous testimonial" class="focus:outline-none">
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/0ccd836f50166a0b126bc2be31819371ef4c005b0dd33c5e58f1aaba9054425e?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="" class="object-contain shrink-0 aspect-[1.19] w-[50px]" />
+      </button>
+      <button aria-label="Next testimonial" class="focus:outline-none">
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/965a13f7aedf2ad8701feba89b016f06d9ac64843c3e5c7b282d0b53d427e9b3?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="" class="object-contain shrink-0 aspect-[1.19] w-[50px]" />
+      </button>
+      </div>
+      </section>
+
+
+<!-- 
+      footer -->
+
+
+      
+
+<footer class="flex flex-col  w-full shadow-[0px_4px_4px_rgba(0,0,0,0.25)] bg-gradient-to-r from-fuchsia-600 to-purple-500 max-md:max-w-full  ">
+      <div class="flex flex-wrap gap-5  ml-10 w-full max-w-[1746px] max-md:max-w-full mt-6 ">
+      <div class="flex flex-col items-start self-start mt-3 mr-80 w-80 ">
+        <h3 class="ml-12 text-2xl text-slate-900 max-md:ml-2.5 font-bold ">Connect</h3>
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/bb82621adea2927fd26043980e15bb103d1396aef6f4f0a2fc5f83d5d3788e5d?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="Company logo" class="object-contain z-10 mt-12 max-w-full aspect-[2.07] w-[237px] max-md:mt-4 bg-fuchsia-600 bg-fuchsia-600 "  />
+        <address class="self-stretch  ml-3.5 text-base text-black max-md:ml-2.5 mt-8 ">
+           Sri Jagannath Nivas,8-1-164/345/A/1,<br />
+          Pragati Colony, Mailardevpally, Nawab<br />
+          Saheb Kunta, Hyd, 500005
+        </address>
+      </div>
+      <nav class="flex flex-wrap gap-10 items-start max-md:max-w-full  " >
+        <div class="flex flex-col items-start text-xl text-black">
+          <h3 class="text-2xl font-bold  text-slate-900">Classes</h3>
+          <ul class="mt-6 text-base font-bold">
+            <li><a href="#classroom">Classroom courses</a></li>
+            <li class="mt-8"><a href="#virtual">Virtual classroom courses</a></li>
+            <li class="mt-6"><a href="#elearning">E-learning courses</a></li>
+            <li class="mt-5"><a href="#video">Video Courses</a></li>
+            <li class="mt-6"><a href="#offline">Offline Courses</a></li>
+          </ul>
+        </div>
+        <div class="flex flex-col whitespace-nowrap">
+          <h3 class="text-2xl font-bold text-slate-900">Community</h3>
+          <ul class="flex flex-col items-start pr-6 pl-1.5 mt-6 text-base max-md:pr-5  font-bold ">
+            <li><a href="#learners">Learners</a></li>
+            <li class="mt-8"><a href="#partners">Partners</a></li>
+            <li class="mt-6"><a href="#developers">Developers</a></li>
+            <li class="mt-5"><a href="#transactions">Transactions</a></li>
+            <li class="mt-7"><a href="#blog">Blog</a></li>
+          </ul>
+        </div>
+        <div class="flex flex-col items-start mt-1 text-xl text-black">
+          <h3 class="text-2xl font-bold text-slate-900 ">Quick links</h3>
+          <ul class="mt-4 text-base  font-bold">
+            <li><a href="#home">Home</a></li>
+            <li class="mt-7"><a href="#professional-education">Professional Education</a></li>
+            <li class="mt-6"><a href="#courses">Courses</a></li>
+            <li class="mt-6"><a href="#admissions">Admissions</a></li>
+            <li class="mt-7"><a href="#testimonial">Testimonial</a></li>
+            <li class="mt-6"><a href="#programs">Programs</a></li>
+          </ul>
+        </div>
+        <div class="flex flex-col items-start self-stretch text-xl text-gray-800 whitespace-nowrap">
+          <h3 class="text-2xl  font-bold text-slate-900  ">More</h3>
+          <ul class="mt-6  text-base  font-bold">
+            <li><a href="#press">Press</a></li>
+            <li class="mt-8"><a href="#investors">Investors</a></li>
+            <li class="mt-8"><a href="#terms">Terms</a></li>
+            <li class="mt-8"><a href="#privacy">Privacy</a></li>
+            <li class="mt-7"><a href="#help">Help</a></li>
+            <li class="mt-7"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      </div>
+      <div class="flex z-10 flex-col items-center px-20 pt-8 pb-3.5 mt-12 mb-0  max-md:px-5 max-md:mt-10 max-md:mb-2.5 max-md:max-w-full bg-gradient-to-r from-purple-500 to-purple-700 h-23">
+      <div class="flex flex-col max-w-full w-[459px]">
+        <div class="flex gap-8 items-start">
+          <a href="#facebook" class="flex flex-col flex-1 justify-center p-3.5 bg-white rounded-full border border-blue-700 border-solid" aria-label="Facebook">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/6a51ed9bc1f1748663a0a83f081032c638d9532cb0603bc5b49484d5841e62b6?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="" class="object-contain w-10 aspect-[1.08]" />
+          </a>
+          <a href="#twitter" class="flex flex-col flex-1 justify-center p-3.5 bg-white rounded-full border border-blue-700 border-solid" aria-label="Twitter">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/1e96bec152f6ecd3f54d04c2f71cc76ae409de67589a582c39fd6bd875111703?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="" class="object-contain w-10 aspect-[1.08]" />
+          </a>
+          <a href="#linkedin" class="flex flex-col flex-1 justify-center p-3.5 bg-white rounded-full border border-blue-700 border-solid" aria-label="LinkedIn">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/37963df65ac5fd87478fff22241aa31a65fa7e31e99d79ccde7c7e83c6b7bfd6?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="" class="object-contain w-10 aspect-[1.08]" />
+          </a>
+          <a href="#instagram" class="flex flex-col flex-1 justify-center p-3.5 bg-white rounded-full border border-blue-700 border-solid" aria-label="Instagram">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/1c49fd56e4dbf9367656727a6e4bf02b438f58dd92aadd09d77502b781013a0d?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="" class="object-contain w-10 aspect-[1.08]" />
+          </a>
+          <a href="#youtube" class="flex flex-col flex-1 justify-center p-3.5 bg-white rounded-full border border-blue-700 border-solid" aria-label="YouTube">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/a841d6113f14d25eee1509f5134fe2ec7f39f6ac91090764c4ff133bf0d61bde?apiKey=cc2a63e04fd14fc3970147f4c3af6a20&" alt="" class="object-contain aspect-[1.11] w-[41px]" />
+          </a>
+        </div>
+       
+          <p class="self-center mt-3.5 text-base text-white ">
+            Copyright @ 2023 askmeidentity. All Rights Reserved
+          </p>
+       
+        
+      </div>
+      </div>
+      </footer>
+      </main>
+
+
+
+
+      
+
+
+
+  <script src="script.js"></script>
+      
+</body>
+</html>

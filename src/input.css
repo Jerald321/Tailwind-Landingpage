@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.borderradius{
+    border-radius:50%;
+    background:#FFFFFF;
+    width: 450px;
+    
+    height: 450px;
+}
+.shadow{
+    box-shadow:20px 20px 20px blue ;
+}
+.index{
+    z-index: -1;
+}
+.boxshadow{
+    filter: drop-shadow(10px 10px 160px blue);
+}
+.topc{
+    background-color:linear-gradient(to left,red,green);
+    /* background:linear-gradient(to left,#D9ECFF,#D9ECFF); */
+}
+.remove{
+    
+        box-sizing: border-box;
+        margin: 0;
+    padding: 0;
+    
+}
+.elemass{
+    position: absolute;
+    top: 10px;
+}
+
+.righteous{
+    font-family: "Righteous", sans-serif;
+   
+  }
+  
